@@ -1,7 +1,6 @@
 name: Build and Test Python App
 
 on:
-  on:
   push:
     branches:
       - master
