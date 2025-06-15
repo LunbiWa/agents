@@ -1,10 +1,11 @@
 name: Build and Test Python App
 
 on:
+  on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches:
+      - master
+  workflow_dispatch:
 
 jobs:
   build-and-test:
