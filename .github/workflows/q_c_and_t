@@ -1,4 +1,4 @@
-name: Build and Test Python App #q_
+name: Build and Test Python App
 
 on:
   push:
